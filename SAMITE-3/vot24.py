@@ -1,4 +1,5 @@
 import sys
+import os
 root = os.getcwd()
 sys.path.append(root)
 
@@ -11,7 +12,6 @@ import torch
 import utils.vot_helper as vot
 
 import random
-import os
 import yaml
 import gc, copy
 from utils.mask_utils import mask2box
