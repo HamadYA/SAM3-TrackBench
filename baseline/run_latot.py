@@ -8,7 +8,7 @@ import numpy as np
 from utils.mask_utils import mask2box, save_boxes
 from utils.dataset_utils import get_dataset, pil2array
 from utils.visualization_utils_edited import VisualizerTracking
-from dam4sam_tracker import DAM4SAMTracker
+from tracker import DAM4SAMTracker
 
 with open("config.yaml") as f:
     config = yaml.load(f, Loader=yaml.FullLoader)
