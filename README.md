@@ -3,12 +3,14 @@ A collection of SAM2-era tracking methods re-implemented on top of SAM3.
 This repository provides a unified structure and inference interface for multiple trackers adapted to the SAM3 backbone.
 
 # Repository Structure
+```
 baseline/        # Baseline SAM3 tracker
 DAM4SAM-3/       # DAM4SAM adapted to SAM3
 SAMURAI-3/       # SAMURAI adapted to SAM3
 HiM2SAM-3/       # HiM2SAM adapted to SAM3
 SAMITE-3/        # SAMITE adapted to SAM3
 SAM3Long/        # SAM2Long adapted to SAM3
+```
 
 Each directory contains:
 - Model implementation
