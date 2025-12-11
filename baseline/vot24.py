@@ -1,11 +1,11 @@
 import sys
-root = "/media/ansari/b31f34fc-bbc3-4980-81cb-193d5242a2c6/mnt/SAM3_Tracking/sam3_tracker_codex/"
+root = os.getcwd()
 sys.path.append(root)
 
 import numpy as np
 from PIL import Image
 
-from dam4sam_tracker import DAM4SAMTracker
+from tracker import DAM4SAMTracker
 import torch
 
 import utils.vot_helper as vot
