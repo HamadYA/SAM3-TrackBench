@@ -42,7 +42,6 @@ Supported Datasets:
 - [VOT2022](https://www.votchallenge.net/vot2022/)
 - [VOTS2024](https://www.votchallenge.net/vots2024/)
 
-Each method directory contains inference code.
 You need to change the dataset path in each **config.yaml** and then run each command.
 Example Command:
 ```
