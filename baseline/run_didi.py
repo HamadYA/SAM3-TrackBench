@@ -140,7 +140,7 @@ def main():
 
     args = parser.parse_args()
 
-    args.dataset_path = "/media/ansari/b31f34fc-bbc3-4980-81cb-193d5242a2c6/mnt/VOT/didi/"
+    args.dataset_path = config["didi_dataset_path"]
     tracker_name = f'sam3'
     args.output_dir = 'out/didi/'
     # args.save_dir = "runs"
