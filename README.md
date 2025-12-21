@@ -49,6 +49,5 @@ Example Command:
 python run_lasot.py
 ```
 
-# Results
-All trackers include standardized inference scripts covering 10 benchmarks.
-
+### Results
+![Performance table](assets/table.png)
