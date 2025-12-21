@@ -50,4 +50,4 @@ python run_lasot.py
 ```
 
 ### Results
-![Performance table](assets/table.png)
+![Performance table](assets/table1.png)
