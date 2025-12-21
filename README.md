@@ -62,6 +62,7 @@ Supported Datasets:
 Example:
 ```bash
 python run_lasot.py
+```
 
 # Results
 ![Performance table](assets/table1.png)
