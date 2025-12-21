@@ -23,7 +23,7 @@ SAMURAI-3/       - SAMURAI adapted to SAM3
 HiM2SAM-3/       - HiM2SAM adapted to SAM3
 SAMITE-3/        - SAMITE adapted to SAM3
 SAM3Long/        - SAM2Long adapted to SAM3
-
+```
 
 Each directory contains:
 - Model implementation
