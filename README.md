@@ -1,8 +1,8 @@
 <div align="center">
 
-# SAM3 Tracking Zoo
+# SAM3-TrackBench
 
-**A unified benchmark and SAM3 re-implementation of SAM2-era visual object trackers**
+**A unified benchmark of SAM2-era visual trackers adapted to SAM3**
 
 [![arXiv](https://img.shields.io/badge/arXiv-2512.22624-b31b1b.svg)](https://arxiv.org/abs/2512.22624)
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
