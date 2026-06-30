@@ -35,7 +35,7 @@ Mohamad Alansari, Muzammal Naseer, Hasan Al Marzouqi, Sajid Javed, Naoufel Wergh
 ## Repository Layout
 
 ```text
-SAM3_Tracking_Zoo/
+SAM3-TrackBench/
 |-- baseline/        # Baseline SAM3 tracker
 |-- DAM4SAM-3/       # DAM4SAM memory design adapted to SAM3
 |-- HiM2SAM-3/       # HiM2SAM memory design adapted to SAM3
