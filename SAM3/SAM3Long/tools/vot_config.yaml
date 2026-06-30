@@ -1,0 +1,46 @@
+seed: 0
+
+default_model: sam3
+
+models:
+  sam3:
+    checkpoint:
+    load_from_hf: true
+    compile: false
+    apply_temporal_disambiguation: true
+
+datasets:
+  didi:
+    path: ""
+  lasot:
+    path: ""
+  lasot_ext:
+    path: ""
+  got_10k:
+    path: ""
+  trackingnet:
+    path: ""
+  tnl2k:
+    path: ""
+  latot:
+    path: ""
+  otb:
+    path: ""
+
+outputs:
+  didi:
+    path: ./outputs/didi_pred_txts
+  lasot:
+    path: ./outputs/lasot_pred_txts
+  lasot_ext:
+    path: ./outputs/lasot_ext_pred_txts
+  got_10k:
+    path: ./outputs/got10k_pred_txts
+  trackingnet:
+    path: ./outputs/trackingnet_pred_txts
+  tnl2k:
+    path: ./outputs/tnl2k_pred_txts
+  latot:
+    path: ./outputs/latot_pred_txts
+  otb:
+    path: ./outputs/otb_pred_txts

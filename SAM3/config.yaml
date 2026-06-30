@@ -1,0 +1,89 @@
+seed: 0
+device: cuda:0
+
+# Public template only. Keep machine-specific paths in config.local.yaml.
+lasot_dataset_path: ""
+lasot_ext_dataset_path: ""
+got_10k_dataset_path: ""
+trackingnet_dataset_path: ""
+tnl2k_dataset_path: ""
+latot_dataset_path: ""
+didi_dataset_path: ""
+otb_dataset_path: ""
+box_datasets_gt_masks_path: ""
+
+datasets:
+  didi:
+    path: ""
+  got_10k:
+    path: ""
+  lasot:
+    path: ""
+  lasot_ext:
+    path: ""
+  trackingnet:
+    path: ""
+  tnl2k:
+    path: ""
+  latot:
+    path: ""
+  otb:
+    path: ""
+
+wrapper:
+  default_dataset: didi
+  default_tracker_name: sam3
+  output_root: outputs/unified
+  visualize: false
+  fail_fast: false
+  models:
+    - name: sam3
+      path: sam3
+      type: standard
+      enabled: true
+    - name: SAMURAI
+      path: SAMURAI
+      type: standard
+      enabled: true
+    - name: HiM2SAM
+      path: HiM2SAM
+      type: standard
+      enabled: true
+    - name: DAM4SAM
+      path: DAM4SAM
+      type: standard
+      enabled: true
+    - name: SAMITE
+      path: SAMITE
+      type: standard
+      enabled: true
+    - name: SAM3Long
+      path: SAM3Long
+      type: sam3long
+      enabled: true
+
+default_model: sam3
+models:
+  sam3:
+    checkpoint:
+    load_from_hf: true
+    compile: false
+    apply_temporal_disambiguation: true
+
+outputs:
+  didi:
+    path: outputs/didi_pred_txts
+  got_10k:
+    path: outputs/got10k_pred_txts
+  lasot:
+    path: outputs/lasot_pred_txts
+  lasot_ext:
+    path: outputs/lasot_ext_pred_txts
+  trackingnet:
+    path: outputs/trackingnet_pred_txts
+  tnl2k:
+    path: outputs/tnl2k_pred_txts
+  latot:
+    path: outputs/latot_pred_txts
+  otb:
+    path: outputs/otb_pred_txts

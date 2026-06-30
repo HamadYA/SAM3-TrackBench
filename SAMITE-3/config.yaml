@@ -1,9 +1,0 @@
-seed: 0
-didi_dataset_path: ""
-lasot_dataset_path: ""
-lasot_ext_dataset_path: ""
-got_10k_dataset_path: ""
-tnl2k_dataset_path: ""
-trackingnet_dataset_path: ""
-latot_dataset_path: ""
-box_datasets_gt_masks_path: ""
