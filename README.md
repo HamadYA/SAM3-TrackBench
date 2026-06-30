@@ -15,7 +15,7 @@ SAM3 Tracking Zoo is a unified codebase for studying visual object tracking with
 This repository accompanies the paper:
 
 **Rethinking Memory Design in SAM-Based Visual Object Tracking**  
-Mohamad Alansari, Muzammal Naseer, Hasan Al Marzouqi, Naoufel Werghi, Sajid Javed  
+Mohamad Alansari, Muzammal Naseer, Hasan Al Marzouqi, Sajid Javed, Naoufel Werghi  
 [arXiv:2512.22624](https://arxiv.org/abs/2512.22624)
 
 > **Branch note:** the legacy wrapper is kept in the `v1` branch. This README documents the current `main` branch, where each SAM3 tracker adaptation is maintained as a standardized backend with matching dataset runners.
