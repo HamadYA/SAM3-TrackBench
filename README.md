@@ -1,8 +1,8 @@
 <div align="center">
 
-# SAM3-TrackBench
+# SAM3 Tracking Zoo
 
-**A unified benchmark of SAM2-era visual trackers adapted to SAM3**
+**A unified benchmark and SAM3 re-implementation of SAM2-era visual object trackers**
 
 [![arXiv](https://img.shields.io/badge/arXiv-2512.22624-b31b1b.svg)](https://arxiv.org/abs/2512.22624)
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
@@ -15,7 +15,7 @@ SAM3 Tracking Zoo is a unified codebase for studying visual object tracking with
 This repository accompanies the paper:
 
 **Rethinking Memory Design in SAM-Based Visual Object Tracking**  
-Mohamad Alansari, Muzammal Naseer, Hasan Al Marzouqi, Sajid Javed, Naoufel Werghi  
+Mohamad Alansari, Muzammal Naseer, Hasan Al Marzouqi, Naoufel Werghi, Sajid Javed  
 [arXiv:2512.22624](https://arxiv.org/abs/2512.22624)
 
 > **Branch note:** the legacy wrapper is kept in the `v1` branch. This README documents the current `main` branch, where each SAM3 tracker adaptation is maintained as a standardized backend with matching dataset runners.
